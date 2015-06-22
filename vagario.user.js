@@ -3,7 +3,7 @@
 // @namespace   videagario.co.nf
 // @description Joins official ViDe Servers
 // @include     http://agar.io/
-// @version     5
+// @version     5.1
 // @grant       none
 // ==/UserScript==
 
