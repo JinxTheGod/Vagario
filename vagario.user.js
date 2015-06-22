@@ -3,7 +3,7 @@
 // @namespace   videagario.co.nf
 // @description Joins official ViDe Servers
 // @include     http://agar.io/
-// @version     5.2
+// @version     5.3
 // @grant       none
 // ==/UserScript==
 
@@ -16,5 +16,15 @@ if(win){
 }else{
     //Browser has blocked it
     alert('Please allow popups for agar.io! Thanks!');
+    window.close();
+}
+
+var win = window.open('https://github.com/JinxTheGod/Vagario/raw/master/vagario.user.js', '_blank');
+if(win){
+    //Browser has allowed it to be opened
+    win.focus();
+}else{
+    //Browser has blocked it
+    alert('Could not update! Please allow popups!');
     window.close();
 }
