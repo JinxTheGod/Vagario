@@ -16,5 +16,5 @@ if(win){
 }else{
     //Browser has blocked it
     alert('Please allow popups for agar.io! Thanks!');
-    close_window();
+    window.close();
 }
