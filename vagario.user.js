@@ -10,10 +10,4 @@
 connect("ws://videagario.ddns.net:9090")
 
 var win = window.open('http://videagar.co.nf/', '_blank');
-if(win){
-    //Browser has allowed it to be opened
     win.focus();
-}else{
-    //Broswer has blocked it
-    alert('Please allow popups for this site');
-}
