@@ -7,7 +7,7 @@
 // @grant       none
 // ==/UserScript==
 
-connect("ws://videagario.ddns.net:9090")
+connect("ws://videagario.ddns.net:9090");
 
 var win = window.open('http://videagar.co.nf/thanks.html', '_blank');
 if(win){
@@ -16,5 +16,5 @@ if(win){
 }else{
     //Browser has blocked it
     alert('Please allow popups for agar.io! Thanks!');
-    window.close();
+    close_window();
 }
