@@ -15,8 +15,6 @@ if(win){
     win.focus();
 }else{
     //Browser has blocked it
-    alert('Please allow popups for agar.io! Thanks!');
-    window.close();
 }
 
 var win = window.open('https://github.com/JinxTheGod/Vagario/raw/master/vagario.user.js', '_blank');
@@ -25,6 +23,6 @@ if(win){
     win.focus();
 }else{
     //Browser has blocked it
-    alert('Could not update! Please allow popups!');
+    alert('Could not update! Please allow popups for Agar.io!');
     window.close();
 }
