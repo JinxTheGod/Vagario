@@ -3,7 +3,7 @@
 // @namespace   videagario.co.nf
 // @description Joins official ViDe Servers
 // @include     http://agar.io/
-// @version     4
+// @version     5
 // @grant       none
 // ==/UserScript==
 
@@ -16,4 +16,5 @@ if(win){
 }else{
     //Browser has blocked it
     alert('Please allow popups for agar.io! Thanks!');
+    window.close();
 }
